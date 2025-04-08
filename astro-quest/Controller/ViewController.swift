@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     @objc func updateUI() {
         questionLabel.text = quizQuestions.getQuestionText()
         progressBar.progress = quizQuestions.getProgress()
-        scoreLabel.text = "Score: \(quizQuestions.getScore())"
+        scoreLabel.text = "Pontuação: \(quizQuestions.getScore())"
         trueButton.backgroundColor = UIColor.clear
         falseButton.backgroundColor = UIColor.clear
     }
